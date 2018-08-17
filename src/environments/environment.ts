@@ -3,8 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  firebase: {
+    apiKey: "AIzaSyA3rAL-ZmJ34Of8_rDdWrlxLPj2Xtc_Ezs",
+    authDomain: "ngshoppingcart-ebd15.firebaseapp.com",
+    databaseURL: "https://ngshoppingcart-ebd15.firebaseio.com",
+    projectId: "ngshoppingcart-ebd15",
+    storageBucket: "ngshoppingcart-ebd15.appspot.com",
+    messagingSenderId: "84922553095"
+  }
 };
+
 
 /*
  * In development mode, for easier debugging, you can ignore zone related error
